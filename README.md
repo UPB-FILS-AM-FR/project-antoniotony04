@@ -1,18 +1,23 @@
-# Your Project Name
+# Mini station de contrôle de la qualité de l’eau
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Popescu-Cristea Antonio-Alexandru
 
 ## Description
 
+Le projet consiste en une mini station de surveillance de la qualité de l’eau utilisant un Arduino Nano et plusieurs capteurs. Le système mesure la température, la turbidité et la conductivité électrique de l’eau, puis affiche les valeurs sur un écran OLED.
+
 ## Motivation
+
+L’objectif est de créer un système simple, accessible et éducatif permettant de tester rapidement la qualité de l’eau sans dépendre de solutions commerciales coûteuses.
 
 ## Architecture
 
+Le système est basé sur un microcontrôleur Arduino Nano qui collecte les données des capteurs et les affiche sur un écran OLED.
+
 ### Block diagram
 
-<!-- Make sure the path to the picture is correct -->
 ![Block Diagram](schematics/block_diagram.png)
 
 ### Schematic
@@ -21,24 +26,23 @@
 
 ### Components
 
-
-<!-- This is just an example, fill in with your actual components -->
-
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Arduino Nano | Microcontrôleur | - |
+| DS18B20 | Capteur de température | - |
+| Turbidity V1.3 | Capteur de turbidité | - |
+| EC Sensor | Capteur de conductivité | - |
+| OLED (I2C) | Affichage des données | - |
+| L9110S | Module H-Bridge | - |
 
 ### Libraries
 
-<!-- This is just an example, fill in the table with your actual components -->
-
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| Wire.h | Communication I2C | Utilisé pour l’écran OLED |
+| LiquidCrystal_I2C.h | Affichage LCD via I2C | Affichage des données |
+| OneWire.h | Protocole OneWire | Communication avec le DS18B20 |
+| DallasTemperature.h | Lecture de température | Utilisé pour le capteur DS18B20 |
 
 ## Log
 
