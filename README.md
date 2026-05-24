@@ -48,11 +48,20 @@ Le système est basé sur un microcontrôleur Arduino Nano qui collecte les donn
 
 <!-- write every week your progress here -->
 
-### Week 6 - 12 May
+### Week 6 – 12 May
 
-### Week 7 - 19 May
+- Comandat componentele (Arduino Nano, senzor DS18B20, senzor turbiditate, senzor EC, display LCD I2C)
 
-### Week 20 - 26 May
+### Week 7 – 19 May
+
+- Sosit componentele
+- Implementat citirea temperaturii (DS18B20) si afisare pe LCD
+- Implementat citirea turbiditatii si masurarea EC cu inversare de polaritate
+
+### Week 8 – 26 May
+
+- Testat toti senzorii impreuna
+- Verificat valorile pe LCD si Serial Monitor
 
 
 ## Reference links
