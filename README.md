@@ -24,6 +24,14 @@ Le système est basé sur un microcontrôleur Arduino Nano qui collecte les donn
 
 ![Schematic](docs/electric_scheme.png)
 
+### Progres
+![1](docs/1.jpeg)
+
+![2](docs/2.jpeg)
+
+![3](docs/3.jpeg)
+
+
 ### Components
 
 | Device | Usage | Price |
