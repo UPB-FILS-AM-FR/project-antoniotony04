@@ -18,11 +18,11 @@ Le système est basé sur un microcontrôleur Arduino Nano qui collecte les donn
 
 ### Block diagram
 
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](docs/block_diagram.png)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](docs/electric_scheme.png)
 
 ### Components
 
