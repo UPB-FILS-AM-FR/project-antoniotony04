@@ -31,6 +31,10 @@ Le système est basé sur un microcontrôleur Arduino Nano qui collecte les donn
 
 ![3](docs/3.jpeg)
 
+![4](docs/1.1 (2).jpeg)
+![5](docs/1.1 (3).jpeg)
+![6](docs/1.1 (5).jpeg)
+![7](docs/1.1 (6).jpeg)
 
 ### Components
 
